@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(Web_agazati_forras_A/hatterek/hatter2.jpg);
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "h h"
+    "n n"
+    "ar as"
+    "f f";
+    background-color: white;
+    width: 80%;
+    
+}
+header{
+    grid-area: h;
+}
+nav{
+    grid-area: n;
+    background-color: aquamarine;
+}
+article{
+    grid-area: ar;
+    text-align: justify;
+    margin: 15px;
+}
+aside{
+    grid-area: as;
+}
+footer{
+    grid-area: f;
+    background-color: aquamarine;
+}
+.nav{
+    list-style-type: none; 
+
+}
+.nli {
+    display: inline;
+  }
+article ul{
+    list-style-type: number;
+}
+.artkep{
+    width: 200px;
+    float: right;
+    border: 1px;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+}
+.cim{
+    font-weight: bold;
+}
